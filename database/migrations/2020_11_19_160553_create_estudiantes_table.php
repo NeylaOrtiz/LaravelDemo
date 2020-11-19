@@ -21,6 +21,8 @@ class CreateEstudiantesTable extends Migration
             $table->unsignedBigInteger('id_Curso');
             $table->foreign('id_Curso')->references('id')->on('cursos');
             $table->timestamps();
+
+            
         });
     }
 

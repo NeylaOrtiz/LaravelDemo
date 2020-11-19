@@ -17,6 +17,7 @@ class CreateGradosTable extends Migration
             $table->bigIncrements('id');
             $table->string('Nombre',100);
             $table->timestamps();
+            
         });
     }
 
